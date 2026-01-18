@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+marquee{
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    text-align: left;
+}
+
+img{
+    margin-top: 3px;
+    padding-top: 5px;
+}
+
+.logo{
+    padding-left:20px;
+}
+
+
+
+body{
+    background-size: cover;
+    background-image: url(traditional-japanese-sushi-with-copy-space.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h1{
+    padding-top: 30px;
+    padding-right: 150px;
+    font-family: Baskerville;
+    font-size: 50px;
+    
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container{
+    width: 1215px;
+    margin: 0px auto;
+}
+
+header {
+    background: rgb(14, 94, 111);
+    height: 153px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    
+   
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background:rgb(58, 136, 145) ;
+    height: 100% ;
+    border-bottom: 5px solid white;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(58, 136, 145);
+    font-size:20PX ;
+    
+    padding: 0px;
+
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.menu-horizontal > li:hover{
+  background-color: red;  
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: white;
+
+
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: lightblue;
+}
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.clearflix{
+    clear: both;
+}
+
+#content
+{
+    float: left;
+    width: calc(80% - 80px );
+    min-height: 500px;
+    background:rgb(242, 222, 186) ;
+}
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding-bottom:10px ;
+    border-bottom: 1px solid #eee;
+    padding: 40px;
+    
+}
+
+.article:first-child{
+    padding: top 10px; ;
+    border-top:1px solid #eee;
+    
+}
+
+article h2{
+    font-size: 25px;
+    
+}
+
+aside
+{
+    float: left;
+    width: 322px;
+    background:rgb(255, 239, 214);
+    height: 700px;
+    
+}
+footer{
+    background: rgb(58, 136, 145) ;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding-bottom: 3px;
+}
